@@ -1,0 +1,29 @@
+.footer-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color var(--hover-duration) var(--hover-time-function);
+
+    &:hover {
+      background-color: var(--bgc--hoverfocus-btnservice-color);
+    }
+    
+    &:focus {
+      background-color: var(--bgc--hoverfocus-btnservice-color);
+    }
+    
+    &:focus .go-footer-icon {
+      fill: var(--primary-bg-color);
+    }
+    
+    &:hover .go-footer-icon {
+      fill: var(--primary-bg-color);
+    }
+  }
+  
+  
+  
+  

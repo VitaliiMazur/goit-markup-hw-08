@@ -1,0 +1,19 @@
+:root {
+  --primary-text-color: #757575; /*загальний текст*/
+  --title-text-color: #212121; /*заголовки*/
+  --acent-color: #2196f3; /*колір наведення*/
+  --black-color: #000000; /*чорний*/
+  --primary-bg-color: #ffffff; /*білий*/
+  --footer-bgc-color: #2f303a; /*фон футера*/
+  --btn-service-color: rgba(0, 0, 0, 0.25); /*кнопка заказать услугу*/
+  --our-team-bgc-color: #f5f4fa; /*колір фону нашої команди*/
+  --bgc--hoverfocus-btnservice-color: #188ce8; /*ховер,фокус кнопки заказать услугу*/
+  --team-soc-icon-color: #afb1b8; /*колір іконок соцальних мереж*/
+  --team-soc-link-hover-color: #2196f3; /*колір іконок ховеру-фокусу*/
+  --footer-bg-icon-color: rgba(255, 255, 255, 0.1);
+  --hover-duration: 250ms;
+  --hover-time-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+$base-font: Roboto, sans-serif;
+$second-font: Raleway, sans-serif;

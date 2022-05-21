@@ -1,0 +1,42 @@
+.footer-icon {
+    display: flex;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 70px;
+  }
+  .go {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: var(--primary-bg-color);
+  }
+  
+  .go-item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--footer-bg-icon-color);
+
+    & + & {
+      margin-left: 10px;
+    }
+  }
+  
+  
+  .go-list {
+    display: flex;
+  }
+  
+  .go-footer-icon {
+    fill: var(--team-soc-icon-color);
+  }
+  .go-footer-icon {
+    fill: var(--primary-bg-color);
+  }

@@ -1,0 +1,49 @@
+.client-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--title-text-color);
+  }
+  .client-title-margin {
+    margin-bottom: 50px;
+  }
+  .client-list {
+    display: flex;
+  }
+  
+  .clients-link {
+    display: flex;
+    box-sizing: border-box;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--team-soc-icon-color);
+    border-radius: 4px;
+    transition: fill var(--hover-duration) var(--hover-time-function),
+      border var(--hover-duration) var(--hover-time-function);
+  
+    fill: var(--team-soc-icon-color);
+  
+    &:hover .clients__logo {
+      fill: var(--acent-color);
+    }
+    &:focus .clients__logo {
+      fill: var(--acent-color);
+    }
+    &:hover {
+      fill: var(--acent-color);
+      border: 1px solid var(--acent-color);
+    }
+  }
+  
+  .clients__logo {
+    transition: fill var(--hover-duration) var(--hover-time-function);
+  }
+  
+  .client-item-margin + .client-item-margin {
+    margin-left: 30px;
+  }

@@ -1,0 +1,112 @@
+// Кнопки в портфоліо
+.button {
+  background-color: var(--primary-bg-color);
+}
+
+.btn__filter {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  padding: 6px 22px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  transition: color var(--hover-duration) var(--hover-time-function),
+    background-color var(--hover-duration) var(--hover-time-function),
+    box-shadow var(--hover-duration) var(--hover-time-function);
+
+  color: var(--title-text-color);
+  background-color: var(--our-team-bgc-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--acent-color);
+    color: var(--primary-bg-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-button {
+  margin-bottom: 50px;
+}
+
+.portfolio-section .btn-li-margin + .btn-li-margin {
+  margin-left: 8px;
+}
+
+//Кнопка в студії Заказать услугу
+
+.business-text {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--primary-bg-color);
+}
+
+.btn-service {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: 0px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  min-width: 200px;
+  transition: background-color var(--hover-duration) var(--hover-time-function);
+
+  background-color: var(--acent-color);
+  color: var(--primary-bg-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
+  }
+}
+
+//Кнопка в футері
+
+.sucscribe-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: 0px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  min-width: 200px;
+  min-height: 50px;
+  transition: background-color var(--hover-duration) var(--hover-time-function);
+  margin-left: 12px;
+  background-color: var(--acent-color);
+  color: var(--primary-bg-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
+  }
+}
+
+.button-icon {
+  margin-left: 10px;
+}

@@ -1,0 +1,53 @@
+.email {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color var(--hover-duration) var(--hover-time-function);
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--acent-color);
+  }
+
+  &:hover .header-icon {
+    fill: var(--acent-color);
+  }
+  &:focus .header-icon {
+    fill: var(--acent-color);
+  }
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color var(--hover-duration) var(--hover-time-function);
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--acent-color);
+  }
+
+  &:hover .header-icon {
+    fill: var(--acent-color);
+  }
+  &:focus .header-icon {
+    fill: var(--acent-color);
+  }
+}
