@@ -1,97 +1,116 @@
+.team {
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+}
+
 .our-team {
-    margin-bottom: 50px;
-  
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: var(--title-text-color);
-  }
-  
-  .team .link {
-    display: flex;
-  }
-  .team-item {
-    padding-bottom: 30px;
-  }
-  
-  .our-team-name {
-    margin-bottom: 10px;
-    text-align: center;
-  
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-  
-    color: var(--title-text-color);
-  }
-  .bcg-our-team {
-    background-color: var(--our-team-bgc-color);
-  }
-  
-  .link .list + .list {
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.team .link {
+  margin-bottom: -30px;
+}
+
+.team-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.our-team-name {
+  margin-bottom: 10px;
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.bcg-our-team {
+  background-color: var(--our-team-bgc-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.link .list + .list {
+  @media screen and (min-width: 768px) {
     margin-left: 30px;
   }
-  .profession-text {
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-  
-    color: var(--primary-text-color);
-    margin-bottom: 16px;
+}
+.profession-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
+}
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-soc-item + .team-soc-item {
+  margin-left: 10px;
+}
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  transition: background-color var(--hover-duration) var(--hover-time-function);
+
+  &:hover {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
   }
 
-  .team-item {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  &:focus {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
   }
-  
-  .team-soc-list {
-    display: flex;
-    justify-content: center;
+
+  &:focus .team-soc-icon {
+    fill: var(--primary-bg-color);
   }
-  .team-soc-item + .team-soc-item {
-    margin-left: 10px;
+
+  &:hover .team-soc-icon {
+    fill: var(--primary-bg-color);
   }
-  .team-soc-link {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-  
-    transition: background-color var(--hover-duration) var(--hover-time-function);
-  
-    &:hover {
-      background-color: var(--bgc--hoverfocus-btnservice-color);
-    }
-  
-    &:focus {
-      background-color: var(--bgc--hoverfocus-btnservice-color);
-    }
-  
-    &:focus .team-soc-icon {
-      fill: var(--primary-bg-color);
-    }
-  
-    &:hover .team-soc-icon {
-      fill: var(--primary-bg-color);
-    }
+}
+.team-soc-icon {
+  fill: var(--team-soc-icon-color);
+  transition: fill var(--hover-duration) var(--hover-time-function);
+}
+
+.team-list {
+  background: var(--primary-bg-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  margin-bottom: 30px;
+}
+
+.team-list {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
   }
-  .team-soc-icon {
-    fill: var(--team-soc-icon-color);
-    transition: fill var(--hover-duration) var(--hover-time-function);
-  }
-  
-  .team-list {
-    background: var(--primary-bg-color);
-  
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-  }
+}
