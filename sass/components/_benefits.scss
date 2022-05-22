@@ -1,49 +1,82 @@
 .work {
-  display: flex;
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 }
 
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.benefits .work {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .li-item {
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+  }
+}
+
+.li-div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 100%;
+  height: 120px;
+
+  background-color: var(--our-team-bgc-color);
+  margin-bottom: 30px;
+}
+
+.list-text {
+  text-align: center;
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+
+  & .description-text {
     width: 270px;
-  
-    & + & {
-      margin-left: 30px;
-    }
-    &:last-child {
-      margin-right: 0;
-    }
   }
-  
-  .li-div-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    width: 270px;
-    height: 120px;
-  
-    background-color: var(--our-team-bgc-color);
-    margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    text-align: left;
   }
-  
-  .list-text {
-    margin-bottom: 10px;
-  
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: var(--title-text-color);
-  
-    & .description-text {
-      width: 270px;
-    }
-  }
-  .description-text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  
-    color: var(--primary-text-color);
-  }
+}
+.description-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
