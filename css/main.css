@@ -917,6 +917,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+@media screen and (min-width: 768px) {
+  .our-team {
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
 
 .team .link {
   margin-bottom: -30px;
@@ -946,6 +952,8 @@ body {
 
 .bcg-our-team {
   background-color: var(--our-team-bgc-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 480px) {
   .bcg-our-team {
