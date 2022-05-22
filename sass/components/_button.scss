@@ -1,4 +1,7 @@
 // Кнопки в портфоліо
+
+
+
 .button {
   background-color: var(--primary-bg-color);
 }
@@ -33,6 +36,7 @@
 .btn {
   display: flex;
   justify-content: center;
+  
 }
 
 .portfolio-button {
@@ -42,6 +46,8 @@
 .portfolio-section .btn-li-margin + .btn-li-margin {
   margin-left: 8px;
 }
+
+
 
 //Кнопка в студії Заказать услугу
 
