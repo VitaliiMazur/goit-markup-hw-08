@@ -1,75 +1,68 @@
 .footer-container {
-    // display: flex;
-    // align-items: baseline;
+  // display: flex;
+  // align-items: baseline;
+  // text-align: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.footer {
+  @media screen and (max-width: 1199px) {
     text-align: center;
-    @media screen and (min-width: 1200px) {
-      display: flex;
-      align-items: baseline;
-    }
-    
   }
-  
-  .footer {
-    @media screen and (max-width: 1199px) {
-      text-align: center;
-    }
+}
 
-  }
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-  .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  
-    background-color: var(--footer-bgc-color);
+  background-color: var(--footer-bgc-color);
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
   }
-  
-  .footer .container {
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.footer .container {
+  @media screen and (min-width: 768px) {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    @media screen and (min-width: 480px) {
-      max-width: 480px;
-    }
-    @media screen and (min-width: 768px) {
-      max-width: 768px;
-    }
-    @media screen and (min-width: 1200px) {
-      max-width: 1200px;
-    }
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
   }
+}
 
-  .footer .container {
-    @media screen and (min-width: 768px) {
-      display: flex;
-      flex-direction: row;
-      align-items: baseline;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      align-content: space-around;
-    }
-    
-  }
-
-  .sucscribe-form {
-    @media screen and (min-width: 1200px) {
-      display: flex;
-    }
-  }
-  
-  
-  .input-button {
+.sucscribe-form {
+  @media screen and (min-width: 1200px) {
     display: flex;
-    flex-direction: column;
-    // margin-left: 93px;
-    @media screen and (min-width: 768px) {
-      margin-top: 60px;
-    }
-    @media screen and (min-width: 1200px) {
-      display: flex;
-      align-items: baseline;
-      margin-left: 93px;
-    }
-    
   }
-  
-  
+}
+
+.input-button {
+  display: flex;
+  flex-direction: column;
+  // margin-left: 93px;
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+    margin-left: 93px;
+  }
+}
