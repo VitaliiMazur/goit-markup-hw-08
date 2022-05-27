@@ -2,9 +2,19 @@
   padding-bottom: 94px;
 }
 
+.our-work .container {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
 .our-work-list .link {
   display: flex;
 }
+
 .our-work-list .list + .list {
   margin-left: 30px;
 }

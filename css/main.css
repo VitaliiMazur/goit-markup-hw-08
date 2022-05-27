@@ -973,6 +973,17 @@ body {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .our-work .container {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-work .container {
+    max-width: 1200px;
+  }
+}
+
 .our-work-list .link {
   display: flex;
 }
