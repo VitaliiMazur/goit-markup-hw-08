@@ -167,6 +167,8 @@ body {
   margin-left: 12px;
   background-color: var(--acent-color);
   color: var(--primary-bg-color);
+  padding-left: 29px;
+  padding-right: 13px;
 }
 .sucscribe-button:hover, .sucscribe-button:focus {
   background-color: var(--bgc--hoverfocus-btnservice-color);
@@ -177,8 +179,19 @@ body {
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer {
+    text-align: center;
+  }
 }
 
 .footer {
@@ -187,10 +200,59 @@ body {
   background-color: var(--footer-bgc-color);
 }
 
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 480px) {
+  .footer .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sucscribe-form {
+    display: flex;
+  }
+}
+
 .input-button {
   display: flex;
   flex-direction: column;
-  margin-left: 93px;
+}
+@media screen and (min-width: 768px) {
+  .input-button {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .input-button {
+    display: flex;
+    align-items: baseline;
+    margin-left: 93px;
+  }
 }
 
 .header {
@@ -766,15 +828,22 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.email-footer {
-  margin-bottom: 9px;
+.email-footer-li {
+  margin-bottom: 8px;
 }
 
 .footer-icon {
-  display: flex;
-  box-sizing: border-box;
   display: block;
-  margin-left: 70px;
+  margin-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-icon {
+    display: flex;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 60px;
+    margin-left: 70px;
+  }
 }
 
 .go {
@@ -802,6 +871,7 @@ body {
 
 .go-list {
   display: flex;
+  margin-bottom: 60px;
 }
 
 .go-footer-icon {
@@ -829,6 +899,10 @@ body {
   color: var(--primary-bg-color);
 }
 
+.footer-adress {
+  margin-bottom: 8px;
+}
+
 .footer-link {
   width: 44px;
   height: 44px;
@@ -854,9 +928,10 @@ body {
 .email-text {
   display: inline-flex;
   outline: none;
-  min-width: 358px;
+  min-width: 320px;
   height: 50px;
   padding-left: 16px;
+  margin-bottom: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -867,6 +942,18 @@ body {
   line-height: 1.25;
   align-items: center;
   color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (min-width: 768px) {
+  .email-text {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .email-text {
+    width: 358px;
+  }
 }
 
 .sucscribe-text {

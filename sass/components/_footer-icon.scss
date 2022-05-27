@@ -1,8 +1,16 @@
 .footer-icon {
-    display: flex;
+    // display: flex;
+    // box-sizing: border-box;
+    display: block;
+    margin-top: 60px;
+    // margin-left: 70px;
+    @media screen and (min-width: 1200px) {
+      display: flex;
     box-sizing: border-box;
     display: block;
+    margin-top: 60px;
     margin-left: 70px;
+    }
   }
   .go {
     margin-bottom: 20px;
@@ -32,6 +40,7 @@
   
   .go-list {
     display: flex;
+    margin-bottom: 60px;
   }
   
   .go-footer-icon {
