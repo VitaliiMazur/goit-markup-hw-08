@@ -610,18 +610,19 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
+
 @media screen and (min-width: 480px) {
-  .business {
+  .business-container {
     max-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
-  .business {
+  .business-container {
     max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .business {
+  .business-container {
     max-width: 1200px;
   }
 }
@@ -1329,6 +1330,7 @@ body {
 @media screen and (min-width: 1200px) {
   .client__item {
     flex-basis: calc(16.6666666667% - 30px);
+    margin-bottom: 0px;
   }
 }
 
