@@ -1,6 +1,16 @@
 // Кнопки в портфоліо
 
-
+.portfolio-container {
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
 
 .button {
   background-color: var(--primary-bg-color);
@@ -35,19 +45,34 @@
 
 .btn {
   display: flex;
-  justify-content: center;
-  
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio-button {
   margin-bottom: 50px;
 }
 
-.portfolio-section .btn-li-margin + .btn-li-margin {
-  margin-left: 8px;
+// .portfolio-section .btn-li-margin + .btn-li-margin {
+//   margin-left: 8px;
+// }
+.btn__li:not(:last-child) {
+  margin-right: 8px;
 }
 
-
+.btn__li {
+  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+  }
+}
 
 //Кнопка в студії Заказать услугу
 
@@ -97,7 +122,6 @@
   }
   padding-left: 29px;
   padding-right: 13px;
-  
 }
 
 .button-icon {

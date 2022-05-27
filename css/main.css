@@ -95,6 +95,22 @@ body {
   --hover-time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 480px) {
+  .portfolio-container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-container {
+    max-width: 1200px;
+  }
+}
+
 .button {
   background-color: var(--primary-bg-color);
 }
@@ -122,15 +138,36 @@ body {
 
 .btn {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .btn {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio-button {
   margin-bottom: 50px;
 }
 
-.portfolio-section .btn-li-margin + .btn-li-margin {
-  margin-left: 8px;
+.btn__li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.btn__li {
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .btn__li {
+    margin-bottom: 0px;
+  }
 }
 
 .btn-service {
