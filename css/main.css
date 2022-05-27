@@ -1242,12 +1242,6 @@ body {
 .our-work {
   padding-top: 0px;
 }
-@media screen and (min-width: 1200px) {
-  .our-work {
-    padding-bottom: 94px;
-  }
-}
-
 @media screen and (max-width: 1199px) {
   .our-work .container {
     display: none;
