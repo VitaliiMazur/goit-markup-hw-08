@@ -7,8 +7,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color var(--hover-duration) var(--hover-time-function);
-  padding-top: 32px;
-  padding-bottom: 32px;
 
   color: var(--primary-text-color);
 
@@ -22,6 +20,10 @@
   }
   &:focus .header-icon {
     fill: var(--acent-color);
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -34,8 +36,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color var(--hover-duration) var(--hover-time-function);
-  padding-top: 32px;
-  padding-bottom: 32px;
 
   color: var(--primary-text-color);
 
@@ -49,5 +49,10 @@
   }
   &:focus .header-icon {
     fill: var(--acent-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }

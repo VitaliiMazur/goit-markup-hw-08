@@ -7,13 +7,31 @@
   letter-spacing: 0.02em;
   display: flex;
   margin-left: auto;
-
-  & .item + .item {
+  @media screen and (min-width: 1200px) {
+& .item + .item {
     margin-left: 50px;
   }
+  }
+  
 }
 
 .header-contact {
   display: flex;
   margin-left: auto;
+}
+
+
+.contact {
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contact .item {
+  @media screen and (max-width: 1199px) {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
 }
