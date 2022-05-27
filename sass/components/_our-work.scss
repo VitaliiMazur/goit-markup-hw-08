@@ -1,5 +1,8 @@
 .our-work {
-  padding-bottom: 94px;
+  padding-top: 0px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
+  }
 }
 
 .our-work .container {
