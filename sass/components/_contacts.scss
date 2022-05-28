@@ -16,16 +16,18 @@
 
 
 
-.header-contact {
-  display: flex;
-  margin-left: auto;
-}
+// .header-contact {
+//   display: flex;
+//   margin-left: auto;
+// }
 
 
 .contact {
+  
   @media screen and (max-width: 1199px) {
     display: flex;
     flex-direction: column;
+    
   }
   
 }
@@ -34,7 +36,11 @@
   @media screen and (max-width: 1199px) {
     &:not(:last-child) {
       margin-bottom: 10px;
+    
     }
   }
-  display: none;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  
 }
