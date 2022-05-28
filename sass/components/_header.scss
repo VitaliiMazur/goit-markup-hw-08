@@ -1,25 +1,33 @@
 .header {
   border-bottom: 1px solid #ececec;
+}
 
+.header .container {
   @media screen and (min-width: 480px) {
     max-width: 480px;
-    
   }
   @media screen and (min-width: 768px) {
     max-width: 768px;
-    & .container {
-      display: flex;
-      align-items: center;
-    }
   }
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
+  }
+}
+
+.header-container {
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+
     margin-left: auto;
     margin-right: auto;
   }
 }
-
-
 
 .studio {
   color: var(--title-text-color);
@@ -144,15 +152,11 @@
   padding-bottom: 48px;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
-  
-  
 }
 
- .is-open {
+.is-open {
   transform: translateX(0);
 }
-
-
 
 .js-menu-container .container {
   display: flex;
@@ -160,7 +164,6 @@
   height: 100%;
   justify-content: space-between;
   overflow-y: auto;
-  
 }
 
 .mob-menu-link {
@@ -171,7 +174,6 @@
   letter-spacing: 0.02em;
 
   color: #212121;
-  
 }
 
 .mob-tel {
