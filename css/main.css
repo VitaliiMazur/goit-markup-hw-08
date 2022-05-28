@@ -294,6 +294,10 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+.header .container {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (min-width: 480px) {
   .header .container {
     max-width: 480px;
@@ -412,7 +416,11 @@ body {
 
 .js-open-menu {
   margin-left: auto;
+  padding: 0;
   border: none;
+}
+.js-open-menu:hover, .js-open-menu:focus {
+  fill: var(--acent-color);
 }
 @media screen and (min-width: 768px) {
   .js-open-menu {
@@ -427,6 +435,9 @@ body {
   margin-bottom: 8px;
   padding: 0;
 }
+.js-close-menu:hover, .js-close-menu:focus {
+  fill: var(--acent-color);
+}
 
 .js-menu-container {
   position: fixed;
@@ -435,7 +446,7 @@ body {
   left: 0;
   background-color: white;
   width: 100vw;
-  height: 100vh;
+  height: 101vh;
   padding-top: 21px;
   padding-bottom: 48px;
   transform: translateX(100%);
@@ -502,6 +513,10 @@ body {
 .mob-social-item:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   margin-right: 10px;
+}
+
+.mob-header-nav .link.current {
+  color: var(--acent-color);
 }
 
 .backdrop {
@@ -936,6 +951,10 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+.header .container {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (min-width: 480px) {
   .header .container {
     max-width: 480px;
@@ -1054,7 +1073,11 @@ body {
 
 .js-open-menu {
   margin-left: auto;
+  padding: 0;
   border: none;
+}
+.js-open-menu:hover, .js-open-menu:focus {
+  fill: var(--acent-color);
 }
 @media screen and (min-width: 768px) {
   .js-open-menu {
@@ -1069,6 +1092,9 @@ body {
   margin-bottom: 8px;
   padding: 0;
 }
+.js-close-menu:hover, .js-close-menu:focus {
+  fill: var(--acent-color);
+}
 
 .js-menu-container {
   position: fixed;
@@ -1077,7 +1103,7 @@ body {
   left: 0;
   background-color: white;
   width: 100vw;
-  height: 100vh;
+  height: 101vh;
   padding-top: 21px;
   padding-bottom: 48px;
   transform: translateX(100%);
@@ -1144,6 +1170,10 @@ body {
 .mob-social-item:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   margin-right: 10px;
+}
+
+.mob-header-nav .link.current {
+  color: var(--acent-color);
 }
 
 .contact {
