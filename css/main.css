@@ -310,12 +310,9 @@ body {
 @media screen and (min-width: 1200px) {
   .header {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
-}
-
-.header .container {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .studio {
@@ -916,12 +913,9 @@ body {
 @media screen and (min-width: 1200px) {
   .header {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
-}
-
-.header .container {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .studio {
