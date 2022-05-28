@@ -136,11 +136,15 @@
   height: 100vh;
   padding-top: 21px;
   padding-bottom: 48px;
-  transform: translateX(100%);
+  // transform: translateX(100%);
   
 }
 
-.mob-menu .container {
+// .js-mob-menu .is-open {
+//   transform: translateX(0);
+// }
+
+.js-mob-menu .container {
   display: flex;
   flex-direction: column;
   height: 100%;
