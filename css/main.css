@@ -426,7 +426,7 @@ body {
   transform: translateX(100%);
 }
 
-.js-menu-container .is-open {
+.is-open {
   transform: translateX(0);
 }
 
@@ -1023,7 +1023,7 @@ body {
   transform: translateX(100%);
 }
 
-.js-menu-container .is-open {
+.is-open {
   transform: translateX(0);
 }
 
