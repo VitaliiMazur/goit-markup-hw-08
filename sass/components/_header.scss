@@ -113,12 +113,12 @@
   color: var(--acent-color);
 }
 
-.js-menu-open-btn {
+.js-open-menu {
   margin-left: auto;
   border: none;
 }
 
-.js-menu-close-btn {
+.js-close-menu {
   display: block;
   margin-left: auto;
   border: none;
@@ -126,7 +126,7 @@
   padding: 0;
 }
 
-.js-mob-menu {
+.js-menu-container {
   position: fixed;
   z-index: 1;
   top: 0;
@@ -136,15 +136,15 @@
   height: 100vh;
   padding-top: 21px;
   padding-bottom: 48px;
-  // transform: translateX(100%);
+  transform: translateX(100%);
   
 }
 
-// .js-mob-menu .is-open {
-//   transform: translateX(0);
-// }
+.js-menu-container .is-open {
+  transform: translateX(0);
+}
 
-.js-mob-menu .container {
+.js-menu-container .container {
   display: flex;
   flex-direction: column;
   height: 100%;
