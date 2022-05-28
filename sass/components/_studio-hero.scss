@@ -1,6 +1,6 @@
 .business {
-  padding-bottom: 200px;
-  padding-top: 200px;
+  padding-bottom: 118px;
+  padding-top: 118px;
   text-align: center;
 
   background-color: var(--footer-bgc-color);
@@ -13,10 +13,8 @@
   background-position: center;
   background-size: cover;
   max-width: 1600px;
+  width: 100%;
   margin: 0 auto;
-  
-
-  
 }
 
 .business-container {
@@ -28,11 +26,8 @@
   }
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
-
   }
 }
-
-
 
 .business-text {
   margin-bottom: 30px;

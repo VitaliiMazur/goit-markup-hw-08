@@ -39,6 +39,7 @@
   & .link.current {
     color: var(--acent-color);
   }
+  display: none;
 }
 
 .main-nav {
@@ -107,4 +108,10 @@
 .kon-link:hover,
 .kon-link:focus {
   color: var(--acent-color);
+}
+
+.menu-open-btn {
+  margin-left: auto;
+  border: none;
+  
 }
