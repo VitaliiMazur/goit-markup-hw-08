@@ -19,7 +19,9 @@ button {
   cursor: pointer;
 }
 
-img {
+.img {
+  width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -811,10 +813,10 @@ body {
   height: 100%;
   transform: translateY(100%);
   transition: transform var(--hover-duration) var(--hover-time-function);
-  padding: 63px 24px;
+  padding: 77px 24px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1, 55;
+  line-height: 1, 56;
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--primary-bg-color);
@@ -888,6 +890,8 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .business {
+    padding-bottom: 200px;
+    padding-top: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
