@@ -190,6 +190,10 @@
 }
 
 .mob-tel {
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+    line-height: 1.18;
+  }
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
@@ -217,6 +221,10 @@
 }
 
 .mob-social-link {
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+    line-height: 1.22;
+  }
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
